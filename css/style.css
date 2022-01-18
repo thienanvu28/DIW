@@ -1,0 +1,290 @@
+/* CSS Document */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Header */
+.nav-item{
+	padding-right: 30px;
+	font-size: medium;
+}
+
+.nav-link {
+	color: #333;
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.nav-link:hover {
+	color: #3E8AFF;
+}
+
+.navbar-toggler {
+	width: 20px;
+	height: 20px;
+	position: relative;
+	transition: .5s ease-in-out;
+}
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+	outline: none;
+	box-shadow: none;
+	border: 0;
+}
+
+.navbar-toggler span {
+	margin: 0;
+	padding: 0;
+}
+
+.toggler-icon {
+	display: block;
+	position: absolute;
+	height: 3px;
+	width: 100%;
+	background: #3E8AFF;
+	border-radius: 1px;
+	opacity: 1;
+	left: 0;
+	transform: rotate(0deg);
+	transition: .25s ease-in-out;
+}
+
+.middle-bar {
+	margin-top: 0px;
+}
+
+.navbar-toggler .top-bar {
+	margin-top: 0px;
+	transform: rotate(135deg);
+}
+
+.navbar-toggler .middle-bar {
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+
+.navbar-toggler .bottom-bar {
+	margin-top: 0px;
+	transform: rotate(-135deg);
+}
+
+.navbar-toggler.collapsed .top-bar {
+	margin-top: -15px;
+	transform: rotate(0deg);
+}
+
+.navbar-toggler.collapsed .middle-bar{
+	opacity: 1;
+	filter: alpha(opacity=100);
+}
+
+.navbar-toggler.collapsed .bottom-bar{
+	margin-top: 15px;
+	transform: rotate(0deg);
+}
+
+.login {
+	width: 140px;
+	height: 40px;
+	border: 2px solid #3E8AFF;
+	background: white;
+	color: #3E8AFF;
+	border-radius: 60px;
+	font-weight: 500;
+	font-size: 14px;
+}
+
+.login:hover {
+	background: #3E8AFF;
+	color: white;
+	transition: 0.5s;
+}
+
+/* Main */
+.heading {
+	font-size: 48px;
+	font-weight: 700;
+	color: #333;
+}
+
+.heading-white {
+	font-size: 48px;
+	font-weight: 700;
+	color: white;
+}
+
+.subhead {
+	font-size: 40px;
+	font-weight: 700;
+	color: #333;
+}
+
+.subhead_white {
+	font-size: 40px;
+	font-weight: 700;
+	color: white;
+}
+
+.subhead_white1 {
+	font-size: 40px;
+	font-weight: 600;
+	color: white;
+}
+
+.p-head {
+	font-size: 20px;
+	color: #333;
+}
+
+.p-white {
+	font-size: 16px;
+	color: white;
+}
+
+.p-white a {
+	color: white;
+}
+
+.btn1{
+	width: 180px;
+	height: 50px;
+	font-size: 14px;
+	font-weight: 600;
+	background: #3E8AFF;
+	border: none;
+	outline: none;
+	color: white;
+	border-radius: 60px;
+}
+
+.btn1:hover {
+	background: #0D4DAF;
+	transition: 0.5s;
+}
+
+.btn2{
+	width: 180px;
+	height: 50px;
+	font-size: 14px;
+	font-weight: 600;
+	border: 2px solid #3E8AFF;
+	background: white;
+	color: #3E8AFF;
+	border-radius: 60px;
+}
+
+.btn2:hover {
+	background: #3E8AFF;
+	color: white;
+	transition: 0.5s;
+}
+
+.subtitle {
+	font-size: 20px;
+	color: #707070;
+}
+
+.catalog {
+	background: #3E8AFF;
+}
+
+.btn3 {
+	width: 180px;
+	height: 50px;
+	font-size: 14px;
+	font-weight: 600;
+	border: 2px solid white;
+	background: #3E8AFF;
+	color: white;
+	border-radius: 60px;
+}
+
+.btn3:hover {
+	background: white;
+	color: #3E8AFF;
+	transition: 0.5s;
+}
+
+.btn4 {
+	width: 180px;
+	height: 50px;
+	font-size: 14px;
+	font-weight: 600;
+	border: none;
+	background: white;
+	color: #3E8AFF;
+	border-radius: 60px;
+}
+
+.btn4:hover {
+	background: #3E8AFF;
+	color: white;
+	transition: 0.5s;
+}
+
+.btn5 {
+	width: 180px;
+	height: 50px;
+	font-size: 14px;
+	font-weight: 600;
+	border: none;
+	background: #0D4DAF;
+	color: white;
+	border-radius: 60px;
+}
+
+.btn5:hover {
+	background: white;
+	color: #3E8AFF;
+	transition: 0.5s;
+}
+
+.pricing .card1 {
+	background: #E9F1FF;
+	border: none;
+	border-radius: 20px;
+}
+
+.pricing .card2 {
+	background: #3E8AFF;
+	border: none;
+	border-radius: 20px;
+	color: white;
+}
+
+footer {
+	background: #3E8AFF;
+	color: white;
+}
+
+.footer ul,li {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.footer ol,ul {
+	padding-left: 0!important;
+}
+
+.about_social-icon{
+    font-size: 24px;
+    margin: 0 8px;
+	color: white;
+}
+
+.about_social-icon:hover{
+    color: #084AAF;
+}
